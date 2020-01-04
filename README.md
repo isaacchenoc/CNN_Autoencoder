@@ -10,3 +10,5 @@ cnn.py includes the CNN that classify MNIST. learning_rate, batch_size and num_e
 cnn_ae1.py includes Auto encoder 1 to encode and decode MNIST and a CNN that takes the restructured data as input to make  classification. learning_rate, batch_size_ae, batch_size, num_epochs_ae, num_epochs can be changed at the beginning of the file, where batch_size_ae and num_epochs_ae are for AE 1 and batch_size and num_epochs are for the CNN. the methods for showing images are currently in comment, so if want the images to be showed, remove the """ in line 94 and 121. 
 
 cnn_ae2.py includes Auto encoder 2 to encode and decode MNIST and a CNN that takes the restructured data as input to make  classification. learning_rate, batch_size_ae, batch_size, num_epochs_ae, num_epochs can be changed at the beginning of the file, where batch_size_ae and num_epochs_ae are for AE 2 and batch_size and num_epochs are for the CNN. the methods for showing images are currently in comment, so if want the images to be showed, remove the """ in line 91 and 109.
+
+![process_diagram](https://i.imgur.com/rsOzxMK.png)
